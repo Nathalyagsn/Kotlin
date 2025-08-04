@@ -92,6 +92,12 @@ fun main() {
                 val sacar = readln().toDoubleOrNull() ?: 0.0
                 if (sacar > saldo){
                     println("Saldo insuficiente")
+
+                } else if (sacar <= 0) {
+                    println("-----------------------------------------")
+                    println("Valor de saque inválido.")
+                    println("-----------------------------------------")
+
                 } else {
                     saldo -= sacar
                     println("-----------------------------------------")
