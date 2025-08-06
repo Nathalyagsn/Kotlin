@@ -1,3 +1,5 @@
+import java.util.Arrays
+
 //fun main() {
     //var numerosInt = arrayOf(2, 5, 9, 5, 8, 3, 2, 5)
     //print(numerosInt.joinToString())
@@ -35,6 +37,38 @@
     //println("A média do aluno é $media")
 //}
 
-fun main() {
-    
-}
+//fun main() {
+    //val codigos = arrayOf(101, 103, 542, 64)
+
+    //print("Digite um código de busca: ")
+    //val codigoBuscado = readln().toInt()
+
+    //println("-----Lista de códigos-----")
+    //for (c in codigos){
+        //println(c)
+    //}
+
+    //if (codigoBuscado in codigos) {
+        //println("Código encontrado")
+    //} else {
+        //println("Código não encontrado")
+    //}
+//}
+
+//fun main() {
+    //val numeros = intArrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    //val numerosPares = mutableListOf<Int>()
+    //val numerosImpares = mutableListOf<Int>()
+
+    //for (c in numeros){
+        //if (c % 2 == 0) {
+            //numerosPares.add(c)
+        //} else {
+            //numerosImpares.add(c)
+        //}
+    //}
+
+    //println("Números Originais: ${numeros.joinToString(", ")}")
+    //println("Numeros pares: $numerosPares")
+    //println("Númeors impares: $numerosImpares")
+//}
